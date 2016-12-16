@@ -1,0 +1,60 @@
+/**** Navegacion ****/
+
+header{
+    text-align: center;
+    background: url("http://papers.co/wallpaper/papers.co-vd28-lollipop-android-official-wallpapers-set-28-wallpaper.jpg");
+    background-size: cover;
+    padding: 10px;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+ul{
+    background: #e65c00;
+    border-radius: 10px;
+        
+}
+
+/**** Para eliminar puntos de la lista ****/
+li {
+    list-style: none;
+    display: inline;
+}
+
+/**** 0px=top 12px=right 0px=bottom 0px=left ****/
+a{
+    padding: 0px 24px 0px 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+img{
+    width: 50%;
+    margin: 40px 0px 0px 0px;
+    border: 7px solid #e65c00;
+    border-radius: 20px;
+        
+}
+
+article{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+/**** Escribe condicion dentro de media y dentro la accion ****/
+@media (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    li{
+        display: block;
+    }
+    a{
+        font-size: 12px;
+    }
+}
